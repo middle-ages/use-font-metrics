@@ -11,7 +11,10 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        nested: resolve(__dirname, 'src/index.html'),
+        FitTextDemo: resolve(__dirname, 'src/demos/FitTextDemo.html'),
+        HMetricsDemo: resolve(__dirname, 'src/demos/HMetricsDemo.html'),
+        Quickstart : resolve(__dirname, 'src/demos/Quickstart.html'),
+        VMetricsDemo : resolve(__dirname, 'src/demos/VMetricsDemo.html'),
       },
     },
   },
