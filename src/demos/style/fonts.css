@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'FiraCode Retina';
+  src: url(./fonts/FiraCode-Retina.ttf);
+}
+
+@font-face {
+  font-family: 'Go';
+  src: url(./fonts/Go-Regular.ttf);
+}
+@font-face {
+  font-family: 'Inter';
+  src: url(./fonts/Inter-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Inter Medium';
+  src: url(./fonts/Inter-Medium.otf);
+}
+
+@font-face {
+  font-family: 'PTSerif';
+  src: url(./fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url(./fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url(./fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto Medium';
+  src: url(./fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto Medium Italic';
+  src: url(./fonts/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto-Regular.ttf);
+}
