@@ -57,10 +57,10 @@ export const MyComponent = () => {
 
 ## Demos
 
-1. [Quickstart](http://github.com/middle-ages/use-font-metrics/src/demos/Quickstart.html) - the Quickstart example ([source](tree/main/src/demos/Quickstart/index.tsx]))
-1. [Horizontal Metrics](http://github.com/middle-ages/use-font-metrics/src/demos/HMetricsDemo.html) - measure text width and chop off `advanceWidth` ([source](tree/main/src/demos/HMetricsDemo/MeasuredBox.tsx]))
-1. [Vertical Metrics](http://github.com/middle-ages/use-font-metrics/src/demos/VMetricsDemo.html) - display font `baseline` and `xHeight` ([source](tree/main/src/demos/VMetricsDemo/index.tsx]))
-1. [Fit Text Height](http://github.com/middle-ages/use-font-metrics/src/demos/FitTextDemo.html) - Resize the browser window to see text `capHeight` sizing to DOM element height ([source](tree/main/src/demos/FitTextHeight]))
+1. [Quickstart](http://github.com/middle-ages/use-font-metrics/src/demos/Quickstart.html) - the Quickstart example [source](tree/main/src/demos/Quickstart/index.tsx])
+1. [Horizontal Metrics](http://github.com/middle-ages/use-font-metrics/src/demos/HMetricsDemo.html) - measure text width and chop off `advanceWidth` [source](tree/main/src/demos/HMetricsDemo/MeasuredBox.tsx])
+1. [Vertical Metrics](http://github.com/middle-ages/use-font-metrics/src/demos/VMetricsDemo.html) - display font `baseline` and `xHeight` [source](tree/main/src/demos/VMetricsDemo/index.tsx])
+1. [Fit Text Height](http://github.com/middle-ages/use-font-metrics/src/demos/FitTextDemo.html) - Resize the browser window to see text `capHeight` sizing to DOM element height [source](tree/main/src/demos/FitTextHeight])
 
 ## Motivation
 
