@@ -57,10 +57,10 @@ export const MyComponent = () => {
 
 ## Demos
 
-1. [Quickstart](http://github.com/middle-ages/use-font-metrics/src/demos/Quickstart.html) - the Quickstart example ([source](http://github.com/middle-ages/use-font-metrics/src/demos/Quickstart]))
-1. [Horizontal Metrics](http://github.com/middle-ages/use-font-metrics/src/demos/HMetricsDemo.html) - measure text width and chop off `advanceWidth` ([source](http://github.com/middle-ages/use-font-metrics/src/demos/HMetricsDemo]))
-1. [Vertical Metrics](http://github.com/middle-ages/use-font-metrics/src/demos/VMetricsDemo.html) - display font `baseline` and `xHeight` ([source](http://github.com/middle-ages/use-font-metrics/src/demos/VMetricsDemo]))
-1. [Fit Text Height](http://github.com/middle-ages/use-font-metrics/src/demos/FitTextDemo.html) - Resize the browser window to see text `capHeight` sizing to DOM element height ([source](http://github.com/middle-ages/use-font-metrics/src/demos/FitTextHeight]))
+1. [Quickstart](http://github.com/middle-ages/use-font-metrics/src/demos/Quickstart.html) - the Quickstart example ([source](http://github.com/middle-ages/use-font-metrics/tree/main/src/demos/Quickstart/index.tsx]))
+1. [Horizontal Metrics](http://github.com/middle-ages/use-font-metrics/src/demos/HMetricsDemo.html) - measure text width and chop off `advanceWidth` ([source](http://github.com/middle-ages/use-font-metrics/tree/main/src/demos/HMetricsDemo/MeasuredBox.tsx]))
+1. [Vertical Metrics](http://github.com/middle-ages/use-font-metrics/src/demos/VMetricsDemo.html) - display font `baseline` and `xHeight` ([source](http://github.com/middle-ages/use-font-metrics/tree/main/src/demos/VMetricsDemo/index.tsx]))
+1. [Fit Text Height](http://github.com/middle-ages/use-font-metrics/src/demos/FitTextDemo.html) - Resize the browser window to see text `capHeight` sizing to DOM element height ([source](http://github.com/middle-ages/use-font-metrics/tree/main/src/demos/FitTextHeight]))
 
 ## Motivation
 
@@ -127,7 +127,7 @@ const fontManager: FontManager = loadStyleSheetFonts();
 
 ### Hooks
 
-You can access the loaded fonts and their metrics directly from the font manager, as in this [demo](http://github.com/middle-ages/use-font-metrics/src/demos/FitTextHeight]), or you can use one of the hooks:
+You can access the loaded fonts and their metrics directly from the font manager, as in this [demo](http://github.com/middle-ages/use-font-metrics/tree/main/src/demos/FitTextHeight]), or you can use one of the hooks:
 
 * `useWinBaseline/useMacBaseline(fontFamily: string, fontSize: number, lineHeight: number = 1)` - distance between top of text line and font baseline
 * `useHMertics({fontFamily: string; fontSize: number, text: string})` - returns text horizontal measurement in a record with numeric `width` and `textIndent` keys in pixel
