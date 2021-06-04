@@ -3,6 +3,7 @@ import { resolve } from 'node:path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/use-font-metrics/',
   plugins: [reactRefresh()],
   esbuild: {
     jsxInject: `import React from 'react'`,
