@@ -25,5 +25,3 @@ export const loadStyleSheetFonts = (): Promise<FontManager> => {
 export const withFontManager = <T>(
   f: (fontManager: FontManager) => T,
 ): Promise<T> => loadStyleSheetFonts().then(f);
-
-export const z = () => {};
