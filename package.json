@@ -1,7 +1,7 @@
 {
   "name": "use-font-metrics",
   "description": "React hooks for font metrics",
-  "version": "0.0.1",
+  "version": "0.2",
   "keywords": ["react","font-metrics","typescript"],
   "author": "Haag59",
   "license" : "MIT",
