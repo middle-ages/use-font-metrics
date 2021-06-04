@@ -5,8 +5,7 @@
   "keywords": ["react","font-metrics","typescript"],
   "author": "Haag59",
   "license" : "MIT",
-  "private": true,
-  "homepage": "https://middle-ages.github.io/use-font-metrics/",
+  "homepage": "https://github.com/middle-ages/use-font-metrics",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
